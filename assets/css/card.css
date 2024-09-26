@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+:root {
+  --surface-color: #fff;
+  --curve: 40;
+}
+* {
+  box-sizing: border-box;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.pt-5 {
+  padding-top: 3rem !important;
+}
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+.border-0 {
+  border: 0 !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+.card {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 5px 5px 0 0 solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+}
+.member-profile {
+  top: -50px;
+  left: 0;
+}
+.text-center {
+  text-align: center !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.member-profile img {
+  width: 100px;
+  height: 100px;
+}
+.rounded-circle {
+  border-radius: 40% !important;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-14 {
+  color: #000;
+}
+
+.service-14 .badge {
+  color: #fff;
+}
+
+.display-5 {
+  font-size: 1.5rem;
+}
+
+.lead {
+  font-size: 1rem;
+}
+
+.display-5 fw-bold {
+  font-size: 1.2rem;
+}
+
+.text-uppercase {
+  font-size: 0.8rem;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  display: flex;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(110, 104, 104, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+:hover.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(226, 223, 223, 0.5);
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.prev-btn {
+  left: 13px;
+  border-radius: 0 5px 5px 0;
+}
+
+.next-btn {
+  right: 13px;
+  border-radius: 5px 0 0 5px;
+}
+
+@media (max-width: 767px) {
+  .berita {
+    flex: 1 1 45%; /* Make the card wider on smaller screens */
+    margin: 0 5px 15px; /* Reduce the gap between cards */
+  }
+  .slider-container {
+    overflow: visible; /* Allow full width display */
+  }
+
+  .slider {
+    display: block; /* Ensure it is displayed as a block */
+    flex-direction: row; /* Align items horizontally */
+    transition: none; /* Remove transition effects for non-slider view */
+  }
+
+  .slide {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards onto new lines */
+    min-width: auto; /* Ensure slides take full width */
+  }
+
+  .col-6 {
+    flex: 1 0 50%; /* Each card takes 50% of the width */
+    max-width: 50%; /* Ensure cards do not exceed 50% width */
+  }
+
+  .slider-btn {
+    display: none; /* Hide navigation buttons */
+  }
+}
+@media (min-width: 200px) {
+  .berita {
+    flex: 1 1 100%; /* Make each card full-width on very small screens */
+    margin: 0 90px 10px; /* Minimal gap on very small screens */
+  }
+}
+
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: left;
+  }
+  .navbar-collapse .d-flex {
+    justify-content: flex-start !important;
+  }
+}

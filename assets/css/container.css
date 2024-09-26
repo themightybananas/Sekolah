@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-14 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+.text-container {
+  margin-bottom: 120px;
+  margin-right: 510px;
+}
+
+@media (max-width: 1200px) {
+  .text-container {
+    margin-bottom: 100px;
+    margin-right: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-container {
+    margin-bottom: 80px;
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-container {
+    margin-bottom: 60px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-container {
+    margin-bottom: 20px;
+    margin-right: 0; /* Remove margin-right for smaller screens */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center the text on smaller screens */
+  }
+}
+
+.hero{
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+  color: black;
+}
+
+#carouselExampleCaptions .carousel-item {
+  max-height: 800px;
+  overflow: hidden;
+}
+  .carousel-half-height .carousel-inner img {
+	height: 100%;
+	object-fit: cover;
+  }
+  @media (max-width: 767.98px) and (max-height: 767.98px) {
+    .carousel-half-height {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-half-height {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-half-height {
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 10px;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  width: 100px;
+  height: auto;
+  margin: 0 40px;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  padding: 0.5rem 1rem; /* Adjust padding for all screen sizes */
+}
+
+.navbar-brand img {
+  max-height: 40px; /* Ensures logo fits well */
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem; /* Adjust padding for nav links */
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    text-align: center; /* Center align items on small screens */
+  }
+
+  .nav-item {
+    margin-bottom: 0.5rem; /* Adjust spacing between items */
+  }
+
+  .navbar-toggler {
+    border-color: transparent; /* Hide border on small screens */
+  }
+}

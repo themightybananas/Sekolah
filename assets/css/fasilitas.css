@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.custom-container {
+	background-color: #ffffff; 
+  }
+  
+  .section-header {
+  border-radius:10px 10px 0 0;
+	border-bottom: 5px solid #edeb57;
+	padding: 15px;
+  }
+  .sarana{
+    padding: 10px;
+}
+
+
+
+
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+  font-family: "DM Serif Text", serif;
+  font-style: normal;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent dark overlay */
+  z-index: 1;
+}
+
+.overlay-text {
+  z-index: 2;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 80vh;
+    text-align: center;
+  }
+}
+.carousel-text {
+  position: absolute;
+  bottom: 20px; /* Provides space from the bottom of the image */
+  left: 20px; /* Space from the left */
+  z-index: 10; /* Ensure text is on top of the image */
+  max-width: 80%; /* Limit the width to avoid overflowing */
+  border-radius: 5px; /* Optional: rounded corners for text box */
+}
+
+.carousel-text h3 {
+  font-size: 2vw; /* Responsive font size based on viewport width */
+  margin: 0;
+}
+
+.carousel-text p {
+  font-size: 1.5vw; /* Responsive font size for paragraph */
+  margin: 5px 0 0;
+}
+
+@media (max-width: 768px) {
+  .carousel-text h3 {
+    font-size: 4vw; /* Larger font for smaller screens */
+  }
+
+  .carousel-text p {
+    font-size: 3vw; /* Adjust paragraph font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-text {
+    bottom: 10px; /* Less space at the bottom for smaller screens */
+    left: 10px; /* Less space at the left for smaller screens */
+    padding: 10px; /* Less padding for smaller screens */
+    max-width: 90%; /* More width for text on small screens */
+  }
+
+  .carousel-text h3 {
+    font-size: 5vw; /* Even larger font for very small screens */
+  }
+
+  .carousel-text p {
+    font-size: 4vw; /* Adjust paragraph font size further */
+  }
+}

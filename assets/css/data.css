@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&family=Oswald:wght@200..700&display=swap');
+  .profil-sekolah{
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+  }
+  .custom-container {
+	background-color: #ffffff; 
+  }
+  
+  .section-header {
+	border-bottom: 2px solid #0B60B0;
+	padding-bottom: 10px;
+  }
+  
+  .section-icon {
+	color: #0B60B0;
+  }
+  
+  .data-box {
+	border: 2px solid #0B60B0;
+	border-radius: 8px;
+	background-color: #f0f4f7;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .data-icon {
+	color: #40A2D8;
+  }
+  
+  .lead {
+	color: #000000; 
+  }
+  
+  .custom-list {
+	padding-left: 0;
+	list-style: none; 
+  }
+  
+  .custom-list li {
+	position: relative; 
+	color: #000000;
+	font-size: 1.2rem;
+	padding-left: 25px; 
+	margin-bottom: 10px; 
+  }
+  
+  .custom-list li::before {
+	content: '•'; 
+	position: absolute;
+	left: 0;
+	color: #000000; 
+	font-size: 1.5rem; 
+	line-height: 1; 
+  }
+  
+  
+  .bi-check-circle {
+	color: #000000;
+	margin-right: 8px;
+  }
+  
+  
+  .container-fluid {
+	padding-right: 0;
+  }
+.services {
+	padding: 0;
+}
+.title h2 {
+	font-weight: 600;
+	font-size: 35px;
+	color: #232323;
+}
+.title p {
+	color: #848484;
+	margin: 0 auto;
+	font-size: 25px;
+}
+.border {
+	height: 2px;
+	margin: 20px auto 20px;
+	position: relative;
+	width: 80px;
+	background: #28ABE3;
+    margin-bottom: 60px;
+}
+.header-wrapper {
+	display: flex;
+	align-items: center;
+  }
+  
+  .header-wrapper svg {
+	margin-right: 0.5rem;
+	width: 24px;
+  	height: 24px;
+    fill: #007bff;
+  }
+  
+  .header-wrapper h1,
+  .header-wrapper p {
+	margin-bottom: 0;
+  }
+  .navbar-text{
+	font-size: 13px;
+  }
