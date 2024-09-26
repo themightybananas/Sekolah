@@ -15,74 +15,73 @@
         <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       </head>
       <body>
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 px-3">
-            <div class="container-fluid px-0">
-              <a class="navbar-brand" href="../index.html">
-                <img src="./assets/img/smki.png" alt="SMKI Logo" />
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbar-default">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informasi Jurusan</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="jurusan.html">Akutansi & Keuangan Lembaga</a></li>
-                      <li><a class="dropdown-item" href="jurusan.html">Pemasaran</a></li>
-                      <li><a class="dropdown-item" href="jurusan.html">Perbankan Syari'ah</a></li>
-                      <li><a class="dropdown-item" href="jurusan.html">Teknik Komputer & Jaringan</a></li>
-                      <li><a class="dropdown-item" href="jurusan.html">Pengembangan Perangkat Lunak & Gim</a></li>
-                      <li><a class="dropdown-item" href="jurusan.html">Desain Komunikasi Visual</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                      <li><a class="dropdown-item" href="berita.html">Prestasi</a></li>
-                      <li><a class="dropdown-item" href="berita.html">Kegiatan Sekolah</a></li>
-                      <li><a class="dropdown-item" href="berita.html">Kegiatan Organisasi</a></li>
-                      <li><a class="dropdown-item" href="berita.html">Ekstrakulikuler</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fasilitas</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                      <li><a class="dropdown-item" href="sarana.html">Sarana</a></li>
-                      <li><a class="dropdown-item" href="fasilitas.html">Prasarana</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                      <li><a class="dropdown-item" href="#">SIAKAD</a></li>
-                      <li><a class="dropdown-item" href="#">Penelusuran Alumni</a></li>
-                      <li><a class="dropdown-item" href="#">TEFA Kami</a></li>
-                      <li><a class="dropdown-item" href="#">Ruang Praktek Siswa</a></li>
-                      <li><a class="dropdown-item" href="#">Kerjasama DUDI</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pendaftaran Siswa Baru</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
-                      <li><a class="dropdown-item" href="#">Daftar</a></li>
-                      <li><a class="dropdown-item" href="#">Cek Nama Kamu</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <div class="d-flex justify-content-end justify-content-lg-end w-100">
-                  <div class="d-flex align-items-center flex-column flex-lg-row">
-                    <a href="#" class="btn btn-outline-primary shadow-sm mb-2 mb-lg-0 me-lg-2">Buat Akun</a>
-                    <a href="#" class="btn btn-primary ml-2 d-block">Login</a>
-                  </div>
-                </div>
-              </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 px-3">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand" href="../index.php">
+          <img src="./assets/img/smki.png" alt="SMKI Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-default">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informasi Jurusan</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="jurusan.php">Akutansi & Keuangan Lembaga</a></li>
+                <li><a class="dropdown-item" href="jurusan.php">Pemasaran</a></li>
+                <li><a class="dropdown-item" href="jurusan.php">Perbankan Syari'ah</a></li>
+                <li><a class="dropdown-item" href="jurusan.php">Teknik Komputer & Jaringan</a></li>
+                <li><a class="dropdown-item" href="jurusan.php">Pengembangan Perangkat Lunak & Gim</a></li>
+                <li><a class="dropdown-item" href="jurusan.php">Desain Komunikasi Visual</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li><a class="dropdown-item" href="berita.php">Prestasi</a></li>
+                <li><a class="dropdown-item" href="berita.php">Kegiatan Sekolah</a></li>
+                <li><a class="dropdown-item" href="berita.php">Kegiatan Organisasi</a></li>
+                <li><a class="dropdown-item" href="berita.php">Ekstrakulikuler</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fasilitas</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <li><a class="dropdown-item" href="sarana.php">Sarana</a></li>
+                <li><a class="dropdown-item" href="fasilitas.php">Prasarana</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <li><a class="dropdown-item" href="#">SIAKAD</a></li>
+                <li><a class="dropdown-item" href="#">Penelusuran Alumni</a></li>
+                <li><a class="dropdown-item" href="#">TEFA Kami</a></li>
+                <li><a class="dropdown-item" href="#">Ruang Praktek Siswa</a></li>
+                <li><a class="dropdown-item" href="#">Kerjasama DUDI</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pendaftaran Siswa Baru</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                <li><a class="dropdown-item" href="#">Daftar</a></li>
+                <li><a class="dropdown-item" href="#">Cek Nama Kamu</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end justify-content-lg-end w-100">
+            <div class="d-flex align-items-center flex-column flex-lg-row">
+              <a href="https://smkislambatu.sch.id/pages/sign-in.php" class="btn btn-primary ml-2 d-block">Masuk</a>
             </div>
-          </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
 
 
 

@@ -17,6 +17,7 @@
     <script src="./assets/js/slider.js" defer></script>
   </head>
   <body>
+    
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 px-3">
       <div class="container-fluid px-0">
@@ -45,17 +46,17 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <li><a class="dropdown-item" href="berita.html">Prestasi</a></li>
-                <li><a class="dropdown-item" href="berita.html">Kegiatan Sekolah</a></li>
-                <li><a class="dropdown-item" href="berita.html">Kegiatan Organisasi</a></li>
-                <li><a class="dropdown-item" href="berita.html">Ekstrakulikuler</a></li>
+                <li><a class="dropdown-item" href="berita.php">Prestasi</a></li>
+                <li><a class="dropdown-item" href="berita.php">Kegiatan Sekolah</a></li>
+                <li><a class="dropdown-item" href="berita.php">Kegiatan Organisasi</a></li>
+                <li><a class="dropdown-item" href="berita.php">Ekstrakulikuler</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fasilitas</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <li><a class="dropdown-item" href="sarana.html">Sarana</a></li>
-                <li><a class="dropdown-item" href="fasilitas.html">Prasarana</a></li>
+                <li><a class="dropdown-item" href="sarana.php">Sarana</a></li>
+                <li><a class="dropdown-item" href="fasilitas.php">Prasarana</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -78,8 +79,7 @@
           </ul>
           <div class="d-flex justify-content-end justify-content-lg-end w-100">
             <div class="d-flex align-items-center flex-column flex-lg-row">
-              <a href="#" class="btn btn-outline-primary shadow-sm mb-2 mb-lg-0 me-lg-2">Buat Akun</a>
-              <a href="#" class="btn btn-primary ml-2 d-block">Login</a>
+              <a href="https://smkislambatu.sch.id/pages/sign-in.php" class="btn btn-primary ml-2 d-block">Masuk</a>
             </div>
           </div>
         </div>
@@ -292,8 +292,6 @@
                       </div><!--//card-footer-->
                   </div><!--//card-->
               </div><!--//col-->
-    
-              <!-- Card 6 -->
               <div class="col-6 col-md-4 col-lg-2 mt-3">
                   <div class="card border-0 shadow-lg pt-5 my-4 position-relative">
                       <div class="card-body p-4">
@@ -304,7 +302,7 @@
                               <h5 class="member-name mb-0 text-center text-primary font-weight-bold">Jean Torres</h5>
                               <div class="mb-3 text-center">Marketing</div>
                           </div>
-                      </div><!--//card-body-->
+                      </div>
                       <div class="card-footer theme-bg-primary border-0 text-center">
                         <ul class="social-list list-inline mb-0 mx-auto">
                           <li class="list-inline-item"><a class="text-dark" href="#">
@@ -315,12 +313,12 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="red" class="bi bi-instagram" viewBox="0 0 16 16">
                               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                             </svg></i></a></li>
-                      </ul><!--//social-list-->
-                      </div><!--//card-footer-->
-                  </div><!--//card-->
-              </div><!--//col-->
-          </div><!--//row-->
-      </div><!--//container-->
+                      </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     </section>
     
   
@@ -343,7 +341,6 @@
       <div class="row align-items-center">
         <div class="col-lg-7 mb-5 mb-lg-0">
           <div class="lc-block px-4">
-            <!--  If you want to remove px-4 please add overflow-hidden class to the section -->
             <div class="position-relative">
               <img class="position-relative img-fluid shadow"src="./assets/img/bg4.jpg"/>
             </div>
@@ -593,7 +590,7 @@
           </div> 
           <header class="row">
               <div class="col-md-6 position-relative mb-3">
-                <a href="isiberita.html">
+                <a href="isiberita.php">
                   <img src="./assets/img/bg4.jpg" alt="Large Image" class="img-fluid shadow">
                 <div class="grid-gradient-overlay"></div>
                 <div class="p-3 text-white grid-text-overlay">
@@ -605,7 +602,7 @@
             <div class="col-md-6">
               <div class="row g-5 py-1">
                   <div class="col-6 col-md-6 position-relative mb-3">
-                    <a href="isiberita.html">
+                    <a href="isiberita.php">
                       <img src="./assets/img/bg4.jpg" class="img-fluid shadow">
                       <div class="grid2-gradient-overlay"></div>
                       <div class="grid2-text-overlay p-3 text-white">
@@ -615,7 +612,7 @@
                       </div>
                   </div>
                   <div class="col-6 col-md-6 position-relative mb-3">
-                    <a href="isiberita.html">
+                    <a href="isiberita.php">
                       <img src="./assets/img/bg4.jpg" class="img-fluid shadow">
                       <div class="grid2-gradient-overlay"></div>
                       <div class="grid2-text-overlay p-3 text-white">
@@ -625,7 +622,7 @@
                       </div>
                   </div>
                   <div class="col-6 col-md-6 position-relative">
-                    <a href="isiberita.html">
+                    <a href="isiberita.php">
                       <img src="./assets/img/bg4.jpg" class="img-fluid shadow">
                       <div class="grid2-gradient-overlay"></div>
                       <div class="grid2-text-overlay p-3 text-white">
@@ -635,7 +632,7 @@
                       </div>
                   </div>
                   <div class="col-6 col-md-6 position-relative">
-                    <a href="isiberita.html">
+                    <a href="isiberita.php">
                       <img src="./assets/img/bg4.jpg" class="img-fluid shadow">
                       <div class="grid2-gradient-overlay"></div>
                       <div class="grid2-text-overlay p-3 text-white">
@@ -653,7 +650,7 @@
           <hr style="border-color: blue;">
           <div class="row">
             <div class="col-lg-4 mb-3">
-              <a href="isiberita.html">
+              <a href="isiberita.php">
                 <div class="position-relative"> <!-- Wrap the image in a container -->
                   <img src="./assets/img/bg4.jpg" class="img-fluid" alt="Main Image">
                   <div class="grid3-gradient-overlay"></div> <!-- Gradient overlay -->
@@ -665,7 +662,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-3">
-              <a href="isiberita.html">
+              <a href="isiberita.php">
                 <div class="position-relative"> <!-- Wrap the image in a container -->
                   <img src="./assets/img/bg4.jpg" class="img-fluid" alt="Main Image">
                   <div class="grid3-gradient-overlay"></div> <!-- Gradient overlay -->
@@ -678,7 +675,7 @@
             </div>
             <div class="col-12 col-lg-4">
               <div class="d-flex mb-3">
-                <a href="isiberita.html" style="text-decoration: none; color: black;">
+                <a href="isiberita.php" style="text-decoration: none; color: black;">
                   <img src="./assets/img/bg4.jpg" class="img-fluid" alt="Sidebar Image 1" style="width: 180px; height: 110px;">
                   <div class="ms-2 p-2" style="background-color: rgba(11,56,109,1);">
                     <h6 class="mb-0 text-white">Title Placeholder</h6>
@@ -687,7 +684,7 @@
                   </div>
               </div>
               <div class="d-flex mb-3">
-                <a href="isiberita.html" style="text-decoration: none; color: black;">
+                <a href="isiberita.php" style="text-decoration: none; color: black;">
                   <img src="./assets/img/bg4.jpg" class="img-fluid" alt="Sidebar Image 1" style="width: 180px; height: 110px;">
                   <div class="ms-2 p-2" style="background-color: rgba(11,56,109,1);">
                     <h6 class="mb-0 text-white">Title Placeholder</h6>
@@ -704,7 +701,7 @@
         <div class="container mt-2">
           <div class="row g-2">
             <div class="col-6 col-lg-3 col-sm-6 mb-2 position-relative">
-              <a href="isiberita.html">
+              <a href="isiberita.php">
               <div class="grid4-gradient-overlay"></div>
               <div class="grid4-text-overlay">
                 <h4>Image 1 Title</h4>
@@ -714,7 +711,7 @@
             </div>
           </a>
             <div class="col-6 col-lg-3 col-sm-6 mb-2 position-relative">
-              <a href="isiberita.html">
+              <a href="isiberita.php">
                 <div class="grid4-gradient-overlay"></div>
                 <div class="grid4-text-overlay">
                   <h4>Image 1 Title</h4>
@@ -724,7 +721,7 @@
               </div>
             </a>
             <div class="col-6 col-lg-3 col-sm-6 mb-2 position-relative">
-              <a href="isiberita.html">
+              <a href="isiberita.php">
                 <div class="grid4-gradient-overlay"></div>
                 <div class="grid4-text-overlay">
                   <h4>Image 1 Title</h4>
